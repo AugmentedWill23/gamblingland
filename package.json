@@ -1,0 +1,33 @@
+{
+  "name": "gamblingland",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./lib/index.js",
+  "browser": {
+    ".": "./web/index.js"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "@bedrock/config-yaml": "^4.3.0",
+    "@bedrock/core": "^6.2.0",
+    "@bedrock/express": "^8.3.1",
+    "@bedrock/server": "^5.1.0",
+    "@bedrock/views": "^12.0.0",
+    "@bedrock/vue": "^5.1.0",
+    "@bedrock/web": "^3.1.0",
+    "@bedrock/web-fontawesome": "^2.1.0",
+    "@bedrock/webpack": "^11.1.2",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-digitalbazaar": "^5.2.0"
+  },
+  "scripts": {
+    "start": "node dev.js",
+    "lint": "eslint \"**/*.{js,vue}\""  
+  }
+}
